@@ -1,7 +1,6 @@
 import { Box, Button, Icon, Image, Text, VStack, useColorMode } from '@chakra-ui/react';
 import { FaMicrophone } from 'react-icons/fa'; // For microphone (voice message) icon
 import themes from '../../utils/themes'; // Import themes
-import Searchbar from './Searchbar'; // Import Searchbar component
 
 const ChatHistorySidebar = ({ history, onRevisitChat, searchQuery, setSearchQuery, onNewChat }) => {
   const { colorMode } = useColorMode(); // Get current theme mode (light/dark)
